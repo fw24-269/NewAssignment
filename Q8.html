@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+      width: 100%;
+      padding: 20px;
+      text-transform: uppercase;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .left-nav {
+      width: 20%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 16px;
+    }
+    .left-nav select {
+      color: #0A0103;
+      background: #D6E2FA;
+      padding: 8px 16px;
+      border-radius: 10px;
+      border: none;
+    }
+    .left-nav img {
+      width: 106px;
+      height: 40px;
+    }
+    .right-nav {
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .right-nav p {
+      color: #0A0103;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .right-nav button {
+      color: #ED0331;
+      padding: 12px 16px;
+      font-size: 12px;
+      border: 1px solid red;
+      border-radius: 10px;
+    }
+    #hero {
+      height: 400px;
+      background: transparent;
+      display: flex;
+      justify-content: space-around;
+      padding: 40px;
+    }
+
+    .left-div {
+      line-height: 1.5;
+      margin-top: 50px;
+    }
+     
+    .left-div > p:nth-child(1){
+      color: #6E71CC;
+      font-size: 48px;
+      font-weight: 800;
+    }
+    .left-div > p:nth-child(2) {
+      color: black;
+      font-size: 40px;
+    }
+    .left-div button {
+      color: white;
+      padding: 16px 20px;
+      background-color: #ED0331;
+      border-radius: 8px;
+      border: none;
+    }
+    #footer {
+      text-align: center;
+      background: rgb(52 112 228);
+      padding: 32px 16px;
+    }
+    .upper-div > p:nth-child(1) {
+      color: #F3F2f2;
+      font-size: 34px;
+      font-weight: 800;
+    }
+    .upper-div > p:nth-child(2) {
+      color: #F3F2f2;
+      font-size: 16px;
+      margin-top: 12px;
+      font-weight: 600;
+    }
+
+    .lower-div {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 32px;
+    }
+
+    .lower-div > div >p:nth-child(1){
+      color: #fef2f2;
+      font-size: 48px;
+      font-weight: 700;
+    }
+    .lower-div > div > p:nth-child(2) {
+      color: #F3F2f2;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <nav>
+      <div class="left-nav">
+        <img src="https://cdn.masaischool.com/masai-website/Masai_Logo_dark_web_b21aab8c62.webp" alt="">
+        <select name="" id="">
+          <option value="">COURSES</option>
+        </select>
+      </div>
+      <div class="right-nav">
+        <p>Scholarship</p>
+        <p>Success stories</p>
+        <p>events</p>
+        <p>hire from us</p>
+        <p>fees</p>
+        <button>REGISTER</button>
+      </div>
+    </nav>
+    <div id="hero">
+      <div class="left-div">
+        <p>Proof that dreams do <br> come true</p>
+        <p>A testament to what's possible</p>
+        <button>APPLY NOW</button>
+      </div>
+      <div class="right-div">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/i8X015RI_EY?si=HduN05VtVNJqBYiZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="upper-div">
+        <p>How is Masai Creating an Impact ?</p>
+        <p>6000+ students placed across 5000+ companies</p>
+      </div>
+      <div class="lower-div">
+        <div>
+          <p>5000+</p>
+          <p>Hiring Partners</p>
+        </div>
+        <div>
+          <p>6.1 LPA*</p>
+          <p>Average CTC</p>
+        </div>
+        <div>
+          <p>8,000+</p>
+          <p>Currently Enrolled Students</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

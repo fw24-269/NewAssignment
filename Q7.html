@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards</title>
+  <style>
+    body {
+      background-color: black;
+    }
+
+    .container {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .card {
+      width: 150px;
+      height: 200px;
+      transition: opacity 0.3s ease;
+      border-radius: 10px;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+
+    .pink {
+      background-color: pink;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .card:hover {
+      opacity: 1;
+    }
+
+    .card:not(:hover) {
+      opacity: 0.5;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CARDS</h1>
+  <div class="container">
+    <div class="card yellow"></div>
+    <div class="card pink"></div>
+    <div class="card red"></div>
+    <div class="card green"></div>
+  </div>
+</body>
+
+</html>
